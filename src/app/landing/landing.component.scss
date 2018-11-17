@@ -72,19 +72,27 @@
   background-color: #ffffff;
   margin-bottom: 32px;
   &.half {
-    height: 200px;
     border-radius: 8px;
     box-shadow: 0 2px 20px #d2d2d2;
     background-color: #f6f8f9;
     display: flex;
     .more-info {
+      padding: 42px 24px;
       background-color: white;
       width: 760px;
-      height: 200px;
       border-radius: 8px;
       position: relative;
       z-index: 1;
       box-shadow: 0 2px 20px 0 #d2d2d2;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: space-between;
+      .main {
+        border-right: 1px solid #d5dbe0;
+        width: fit-content;
+        padding-right: 14px;
+        margin-right: 24px;
+      }
     }
   }
 }
@@ -112,7 +120,7 @@
   text-align: left;
   color: #2d2f38;
   span:first-of-type {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
   }
   span:last-of-type {
@@ -139,7 +147,6 @@ ul.list {
       outline: none;
     }
     .datetime {
-      width: 104px;
       font-family: Roboto;
       font-size: 12px;
       font-weight: normal;
@@ -241,7 +248,7 @@ p {
 }
 
 .tabs {
-  margin-top: 16px;
+  margin-top: 48px;
   margin-bottom: 24px;
   margin-left: 24px;
   ul {
@@ -270,4 +277,47 @@ p {
       }
     }
   }
+}
+
+.filter {
+  width: 240px;
+  height: fit-content;
+  border-radius: 8px;
+  box-shadow: 0 2px 20px 0 #d2d2d2;
+  background-color: #ffffff;
+  margin-left: 24px;
+  ul {
+    list-style-type: none;
+    li:not(:last-of-type) {
+      border-bottom: 1px solid #e4e7eb;
+    }
+    li {
+      max-height: 52px;
+      box-sizing: border-box;
+      padding: 16px 24px;
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.25;
+      letter-spacing: normal;
+      text-align: left;
+      color: #999999;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      button {
+        width: 20px;
+        height: 20px;
+        background-color: transparent;
+        border: none;
+        outline: none;
+      }
+    }
+  }
+}
+
+.container {
+  display: flex;
 }
