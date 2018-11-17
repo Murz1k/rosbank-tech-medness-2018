@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #bebebe;
+      }
+    </style>
+  </defs>
+  <g id="edit" transform="translate(-1188 -1223)">
+    <rect id="placeholder" class="cls-1" width="24" height="24" transform="translate(1188 1223)"/>
+    <g id="icon" transform="translate(1211.627 1229.657) rotate(135)">
+      <path id="Rectangle" class="cls-2" d="M17.735,8H3.068A3.038,3.038,0,0,1,0,5V3A3.038,3.038,0,0,1,3.068,0H17.62a3.1,3.1,0,0,1,1.806.575l4.154,2.956A.988.988,0,0,1,23.49,5.2L19.274,7.6A3.123,3.123,0,0,1,17.735,8ZM3.068,2A1.013,1.013,0,0,0,2.045,3V5A1.013,1.013,0,0,0,3.068,6H17.735a1.041,1.041,0,0,0,.513-.135l2.858-1.62L18.222,2.191A1.034,1.034,0,0,0,17.62,2Z" transform="translate(0 0)"/>
+      <g id="Line_3" data-name="Line 3" transform="translate(15.499 0.525)">
+        <path id="Line_3-2" data-name="Line 3" class="cls-2" d="M2.209,5.943a1.01,1.01,0,0,1-.99,1.032A1.013,1.013,0,0,1,.164,6.007L0,1.032A1.01,1.01,0,0,1,.99,0,1.013,1.013,0,0,1,2.045.968Z" transform="translate(0 0)"/>
+      </g>
+      <g id="Line_3-3" data-name="Line 3" transform="translate(3.927 0.525)">
+        <path id="Line_3-4" data-name="Line 3" class="cls-2" d="M2.209,5.943a1.01,1.01,0,0,1-.99,1.032A1.013,1.013,0,0,1,.164,6.007L0,1.032A1.01,1.01,0,0,1,.99,0,1.013,1.013,0,0,1,2.045.968Z" transform="translate(0 0)"/>
+      </g>
+    </g>
+  </g>
+</svg>

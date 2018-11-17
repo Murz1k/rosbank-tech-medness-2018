@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #c3c3c3;
+      }
+    </style>
+  </defs>
+  <g id="repeat_reply" data-name="repeat/reply" transform="translate(-1188 -496)">
+    <rect id="placeholder" class="cls-1" width="24" height="24" transform="translate(1188 496)"/>
+    <path id="icon" class="cls-2" d="M5.349.114h0A1.606,1.606,0,0,1,5.6,2.66L3.964,4.132h9.2A6.922,6.922,0,0,1,20,11.123a6.922,6.922,0,0,1-6.834,6.991s-.9-.318-.9-1.061.9-1.079.9-1.079a4.853,4.853,0,0,0,0-9.7h-9.2L5.6,7.827a1.528,1.528,0,0,1-.251,2.485L0,5.2Z" transform="translate(1190 498.886)"/>
+  </g>
+</svg>

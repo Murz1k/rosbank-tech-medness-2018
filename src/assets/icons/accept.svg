@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #c3c3c3;
+      }
+    </style>
+  </defs>
+  <g id="accept" transform="translate(-1188 -1305)">
+    <rect id="placeholder" class="cls-1" width="24" height="24" transform="translate(1188 1305)"/>
+    <g id="icon" transform="translate(822 1292)">
+      <path id="Oval_5" data-name="Oval 5" class="cls-2" d="M11,22A11,11,0,0,1,3.222,3.222,11,11,0,1,1,18.778,18.778,10.928,10.928,0,0,1,11,22ZM11,2a9,9,0,1,0,9,9A9.01,9.01,0,0,0,11,2Z" transform="translate(367 14)"/>
+      <path id="Imported_Layers" data-name="Imported Layers" class="cls-2" d="M8.236.355a1,1,0,1,1,1.528,1.29l-5.067,6A1,1,0,0,1,3.25,7.73L.316,4.981A1,1,0,0,1,1.684,3.522L3.849,5.55Z" transform="translate(373 21)"/>
+    </g>
+  </g>
+</svg>

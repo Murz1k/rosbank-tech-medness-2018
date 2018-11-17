@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #c3c3c3;
+      }
+    </style>
+  </defs>
+  <g id="icon" transform="translate(-351 -1209)">
+    <rect id="placeholder" class="cls-1" width="24" height="24" transform="translate(351 1209)"/>
+    <path id="Path_2977" data-name="Path 2977" class="cls-2" d="M16,13.2v3.3H2V13.2a.945.945,0,0,0-1-1H1a.945.945,0,0,0-1,1v3.3a2.006,2.006,0,0,0,2,2H16a2.006,2.006,0,0,0,2-2V13.2a.945.945,0,0,0-1-1h0A1,1,0,0,0,16,13.2Z" transform="translate(354 1212)"/>
+    <path id="icon-2" data-name="icon" class="cls-2" d="M6.68.114h0a1.749,1.749,0,0,1-.125,2.751l-1.613,1.2H12.7c1.736,0,1.737,2.106,0,2.106H4.948L6.555,7.412a1.679,1.679,0,0,1,.125,2.7L0,5.122Z" transform="translate(357.886 1227) rotate(-90)"/>
+  </g>
+</svg>

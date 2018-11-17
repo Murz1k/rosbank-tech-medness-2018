@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2, .cls-6 {
+        fill: #e60028;
+      }
+
+      .cls-2 {
+        stroke: rgba(0,0,0,0);
+      }
+
+      .cls-3 {
+        stroke: #e60028;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-5 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-7 {
+        clip-path: url(#clip-path-3);
+      }
+
+      .cls-8 {
+        clip-path: url(#clip-path-4);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="Mask" class="cls-1" d="M19.919,0V11H3.984V9H0V1H3.984V0Z" transform="translate(0)"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Mask-2" data-name="Mask" class="cls-2" d="M9.96,0A10,10,0,1,1,0,10,9.991,9.991,0,0,1,9.96,0Zm0,18a8,8,0,1,0-7.968-8A7.993,7.993,0,0,0,9.96,18Z"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <path id="Mask-3" data-name="Mask" class="cls-1" d="M0,11V0H15.936V2h3.984v8H15.936v1Z"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <path id="Mask-4" data-name="Mask" class="cls-2" d="M9.96,20a10,10,0,1,1,9.96-10A9.991,9.991,0,0,1,9.96,20Zm0-18a8,8,0,1,0,7.968,8A7.993,7.993,0,0,0,9.96,2Z"/>
+    </clipPath>
+  </defs>
+  <g id="loader" transform="translate(-655 -1642)">
+    <rect id="placeholder" class="cls-1" width="24" height="24" transform="translate(655 1642)"/>
+    <g id="icon" transform="translate(290 1629)">
+      <g id="Group_4_Copy" data-name="Group 4 Copy" transform="translate(367.992 13)">
+        <g id="Group_3" data-name="Group 3" transform="translate(0 2.967)">
+          <g id="Group_3-2" data-name="Group 3">
+            <path id="Path_9_Copy" data-name="Path 9 Copy" class="cls-3" d="M5.07,4.936c-.06,0-4.982.087-4.982.087L0,0" transform="matrix(1, 0.017, -0.017, 1, 0.087, 0)"/>
+          </g>
+        </g>
+        <g id="Combined_Shape" data-name="Combined Shape" transform="translate(0.089)">
+          <path id="Mask-5" data-name="Mask" class="cls-1" d="M19.919,0V11H3.984V9H0V1H3.984V0Z" transform="translate(0)"/>
+          <g id="Combined_Shape-2" data-name="Combined Shape" class="cls-4">
+            <g id="Combined_Shape-3" data-name="Combined Shape" transform="translate(-0.996 2)">
+              <path id="Mask-6" data-name="Mask" class="cls-2" d="M9.96,0A10,10,0,1,1,0,10,9.991,9.991,0,0,1,9.96,0Zm0,18a8,8,0,1,0-7.968-8A7.993,7.993,0,0,0,9.96,18Z"/>
+            </g>
+          </g>
+        </g>
+        <path id="Oval_2" data-name="Oval 2" class="cls-6" d="M-1.011-2a1,1,0,0,0-1,1,1,1,0,0,0,1,1,1,1,0,0,0,1-1A1,1,0,0,0-1.011-2Z" transform="translate(18.972 12)"/>
+      </g>
+      <g id="Group_4_Copy_2" data-name="Group 4 Copy 2" transform="translate(366 25)">
+        <g id="Group_3-3" data-name="Group 3" transform="translate(14.852 3.921)">
+          <g id="Group_3-4" data-name="Group 3" transform="translate(0)">
+            <path id="Path_9_Copy-2" data-name="Path 9 Copy" class="cls-3" d="M0,.087C.06.087,4.982,0,4.982,0L5.07,5.023" transform="matrix(1, 0.017, -0.017, 1, 0.087, 0)"/>
+          </g>
+        </g>
+        <g id="Combined_Shape-5" data-name="Combined Shape" transform="translate(0 1)">
+          <path id="Mask-7" data-name="Mask" class="cls-1" d="M0,11V0H15.936V2h3.984v8H15.936v1Z"/>
+          <g id="Combined_Shape-6" data-name="Combined Shape" class="cls-7">
+            <g id="Combined_Shape-7" data-name="Combined Shape" transform="translate(0.996 -11)">
+              <path id="Mask-8" data-name="Mask" class="cls-2" d="M9.96,20a10,10,0,1,1,9.96-10A9.991,9.991,0,0,1,9.96,20Zm0-18a8,8,0,1,0,7.968,8A7.993,7.993,0,0,0,9.96,2Z" transform="translate(0)"/>
+            </g>
+          </g>
+        </g>
+        <path id="Oval_2-2" data-name="Oval 2" class="cls-6" d="M1,2A1,1,0,1,0,0,1,1,1,0,0,0,1,2Z" transform="translate(1.044)"/>
+      </g>
+    </g>
+  </g>
+</svg>

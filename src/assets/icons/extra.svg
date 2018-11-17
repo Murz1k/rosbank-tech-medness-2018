@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #b1b1b1;
+      }
+    </style>
+  </defs>
+  <g id="extra" transform="translate(-959 -60)">
+    <rect id="placeholder" class="cls-1" width="48" height="48" transform="translate(959 60)"/>
+    <g id="icon" transform="translate(-14)">
+      <ellipse id="Oval_2" data-name="Oval 2" class="cls-2" cx="3.025" cy="3" rx="3.025" ry="3" transform="translate(980 81)"/>
+      <ellipse id="Oval_2_Copy" data-name="Oval 2 Copy" class="cls-2" cx="3.025" cy="3" rx="3.025" ry="3" transform="translate(993.975 81)"/>
+      <ellipse id="Oval_2_Copy_2" data-name="Oval 2 Copy 2" class="cls-2" cx="3.025" cy="3" rx="3.025" ry="3" transform="translate(1007.951 81)"/>
+    </g>
+  </g>
+</svg>

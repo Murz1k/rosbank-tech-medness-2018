@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #999;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="chevron" transform="translate(-739 -295)">
+    <path id="Shape_Copy_2" data-name="Shape Copy 2" class="cls-1" d="M.72.752h0a1.026,1.026,0,0,1,1.517,0l4.17,4.434L8.873,2.562,10.578.749a1.026,1.026,0,0,1,1.517,0h0a1.2,1.2,0,0,1,0,1.619L6.408,8.415,3.185,4.989.723,2.37A1.2,1.2,0,0,1,.72.752Z" transform="translate(744.593 302.585)"/>
+    <rect id="Rectangle_38" data-name="Rectangle 38" class="cls-2" width="24" height="24" transform="translate(739 295)"/>
+  </g>
+</svg>

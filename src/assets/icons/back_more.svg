@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #c3c3c3;
+      }
+    </style>
+  </defs>
+  <g id="back_more" transform="translate(61 92) rotate(180)">
+    <g id="back_more-2" data-name="back_more" transform="translate(427 105) rotate(-180)">
+      <rect id="placeholder" class="cls-1" width="24" height="24" transform="translate(366 13)"/>
+      <g id="icon" transform="translate(-194.367 -56.002)">
+        <path id="Shape_Copy_9" data-name="Shape Copy 9" class="cls-2" d="M11.687.337h0a1.026,1.026,0,0,0-1.517,0L6,4.768,3.535,2.147,1.83.334a1.026,1.026,0,0,0-1.517,0h0a1.2,1.2,0,0,0,0,1.619L6,8,9.222,4.574l2.462-2.618a1.2,1.2,0,0,0,0-1.619Z" transform="translate(571.367 87.002) rotate(-90)"/>
+        <path id="Shape_Copy_10" data-name="Shape Copy 10" class="cls-2" d="M11.687.337h0a1.026,1.026,0,0,0-1.517,0L6,4.768,3.535,2.147,1.83.334a1.026,1.026,0,0,0-1.517,0h0a1.2,1.2,0,0,0,0,1.619L6,8,9.222,4.574l2.462-2.618a1.2,1.2,0,0,0,0-1.619Z" transform="translate(565.367 87.002) rotate(-90)"/>
+      </g>
+    </g>
+  </g>
+</svg>

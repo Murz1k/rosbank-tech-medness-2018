@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #5cad54;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="ok" transform="translate(-219 -282)">
+    <rect id="placeholder" class="cls-1" width="24" height="24" transform="translate(219 282)"/>
+    <path id="icon" class="cls-2" d="M0,4.064,3.667,7.5,10,0" transform="translate(226 290)"/>
+  </g>
+</svg>
