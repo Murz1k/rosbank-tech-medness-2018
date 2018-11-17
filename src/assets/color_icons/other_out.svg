@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c73737;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="other_out" transform="translate(-333 -1494)">
+    <circle id="oval" class="cls-1" cx="20" cy="20" r="20" transform="translate(333 1494)"/>
+    <g id="icon" transform="translate(347 1508)">
+      <path id="Path_6" data-name="Path 6" class="cls-2" d="M1.7,11.707a1.006,1.006,0,0,1-1.4.018.953.953,0,0,1-.019-1.37L10.3.293A1.006,1.006,0,0,1,11.7.275a.953.953,0,0,1,.019,1.37Z" transform="translate(0 0)"/>
+      <path id="Path_7" data-name="Path 7" class="cls-2" d="M6.058,1.937H.99A.98.98,0,0,1,0,.968.98.98,0,0,1,.99,0H8.038V6.779a.991.991,0,0,1-1.981,0Z" transform="translate(3.962 0)"/>
+    </g>
+  </g>
+</svg>

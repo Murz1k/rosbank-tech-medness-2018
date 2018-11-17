@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #4ca284;
+      }
+
+      .cls-3 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Mask" class="cls-1" width="20" height="13" rx="1"/>
+    </clipPath>
+  </defs>
+  <g id="partner_in" transform="translate(-336 -1574)">
+    <circle id="oval" class="cls-2" cx="20" cy="20" r="20" transform="translate(336 1574)"/>
+    <g id="icon" transform="translate(346 1586.5)">
+      <rect id="Rectangle" class="cls-3" width="20" height="15" rx="1"/>
+      <rect id="Rectangle_Copy_6" data-name="Rectangle Copy 6" class="cls-3" width="6" height="5" rx="1" transform="translate(7 10)"/>
+      <g id="Oval_3_Oval_3_Copy_2_Oval_3_Copy_3_Mask" data-name="Oval 3 + Oval 3 Copy 2 + Oval 3 Copy 3 Mask">
+        <rect id="Mask-2" data-name="Mask" class="cls-1" width="20" height="13" rx="1"/>
+        <g id="Oval_3_Oval_3_Copy_2_Oval_3_Copy_3_Mask-2" data-name="Oval 3 + Oval 3 Copy 2 + Oval 3 Copy 3 Mask" class="cls-4">
+          <circle id="Oval_3" data-name="Oval 3" class="cls-3" cx="3" cy="3" r="3" transform="translate(7 -2)"/>
+          <circle id="Oval_3_Copy_2" data-name="Oval 3 Copy 2" class="cls-3" cx="3" cy="3" r="3" transform="translate(0 -2)"/>
+          <circle id="Oval_3_Copy_3" data-name="Oval 3 Copy 3" class="cls-3" cx="3" cy="3" r="3" transform="translate(14 -2)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

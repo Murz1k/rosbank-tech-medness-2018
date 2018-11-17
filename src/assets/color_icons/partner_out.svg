@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #f3b90e;
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        clip-path: url(#clip-path-2);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="Path_2" data-name="Path 2" class="cls-1" d="M8.722-13.435A4.753,4.753,0,0,1,4-18.217,4.753,4.753,0,0,1,8.722-23a4.753,4.753,0,0,1,4.722,4.783A4.753,4.753,0,0,1,8.722-13.435Zm0-1.913a2.852,2.852,0,0,0,2.833-2.87,2.852,2.852,0,0,0-2.833-2.87,2.852,2.852,0,0,0-2.833,2.87A2.852,2.852,0,0,0,8.722-15.348Z" transform="translate(-4 23)"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_4" data-name="Path 4" class="cls-1" d="M17-3.724c0,1.434-3.8,3.2-8.606,3.2S0-2.271,0-3.724a8.373,8.373,0,0,1,.178-1.4,10.011,10.011,0,0,1,.989-2.773A7.764,7.764,0,0,1,8.5-12a7.76,7.76,0,0,1,7.335,4.156,10.2,10.2,0,0,1,.987,2.774A8.393,8.393,0,0,1,17-3.724ZM14.97-4.7a8.373,8.373,0,0,0-.8-2.271A5.884,5.884,0,0,0,8.5-10.135,5.888,5.888,0,0,0,2.833-7.016a8.187,8.187,0,0,0-.8,2.261c-.054.266-.092.519-.115.711A4.682,4.682,0,0,0,2.933-3.4,12.569,12.569,0,0,0,8.394-2.387,13.288,13.288,0,0,0,13.976-3.4,5.406,5.406,0,0,0,15.07-4.06,6.1,6.1,0,0,0,14.97-4.7Z" transform="translate(0 12)"/>
+    </clipPath>
+  </defs>
+  <g id="partner_out" transform="translate(-336 -489)">
+    <path id="oval" class="cls-2" d="M20,0A20,20,0,1,1,0,20,20,20,0,0,1,20,0Z" transform="translate(336 489)"/>
+    <g id="icon" transform="translate(347.5 498)">
+      <g id="Group_1" data-name="Group 1" class="cls-3" transform="translate(3.778)">
+        <path id="Path_1" data-name="Path 1" class="cls-4" d="M-1-8.87H17.889V-28H-1Z" transform="translate(-3.722 23.217)"/>
+      </g>
+      <g id="Group_2" data-name="Group 2" class="cls-5" transform="translate(0 10.522)">
+        <path id="Path_3" data-name="Path 3" class="cls-4" d="M-5,4.043H21.444V-17H-5Z" transform="translate(0.278 12.217)"/>
+      </g>
+    </g>
+  </g>
+</svg>
