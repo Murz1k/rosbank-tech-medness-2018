@@ -44,6 +44,8 @@ export class AdminOfferManagementComponent implements OnInit {
 
   onSubmit() {
     this.service.addNewOffer(this.form.value).subscribe((response) => {
+      alert("Оффер добавлен");
+      this.form.reset();
       this.loadData();
     });
   }

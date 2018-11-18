@@ -1,6 +1,8 @@
 <!-- <app-header></app-header> -->
 <div class="content">
-  <div class="card" style="height: 500px;">
+  <div class="card" style="height: 500px;
+    padding: 60px;
+    box-sizing: border-box;">
     <form [formGroup]="form" (submit)="onSubmit()">
       <h2>Инструмент создания персонального предложения</h2>
       <div class='admin-dropdown admin-item'>
@@ -14,10 +16,11 @@
         </mat-select>
       </div>
       <div class="admin-item">
-        <input matInput type="text" formControlName="text" />
+        <input style="padding: 12px;
+    width: 100%;" type="text" formControlName="text"/>
       </div>
-      <div admin-item>
-        <input class="btn btn-primary" type="submit" />
+      <div>
+        <input class="btn btn-primary" type="submit"/>
       </div>
     </form>
   </div>
