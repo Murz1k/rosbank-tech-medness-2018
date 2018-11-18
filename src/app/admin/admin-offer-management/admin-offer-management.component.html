@@ -1,23 +1,24 @@
+<!-- <app-header></app-header> -->
 <div class="content">
   <div class="card" style="height: 500px;">
-    Админка
     <form [formGroup]="form" (submit)="onSubmit()">
-      <div>
-        Выбрать шаблон пользователя
-        <mat-select formControlName="userTemplate">
+      <h2>Инструмент создания персонального предложения</h2>
+      <div class='admin-dropdown admin-item'>
+        <mat-select placeholder="Выбрать шаблон пользователя" class="dropdown" formControlName="userTemplate">
           <mat-option value="{{template.id}}" *ngFor="let template of templates">{{template.name}}</mat-option>
         </mat-select>
       </div>
-      <div>
-        Выбрать услугу
-        <mat-select formControlName="service">
+      <div class='admin-dropdown admin-item'>
+        <mat-select placeholder="Выбрать услугу" class="dropdown" formControlName="service">
           <mat-option value="{{service.id}}" *ngFor="let service of services">{{service.name}}</mat-option>
         </mat-select>
       </div>
-      <div>
-        <input type="text" formControlName="text"/>
+      <div class="admin-item">
+        <input matInput type="text" formControlName="text" />
       </div>
-      <input type="submit"/>
+      <div admin-item>
+        <input class="btn btn-primary" type="submit" />
+      </div>
     </form>
   </div>
 </div>
