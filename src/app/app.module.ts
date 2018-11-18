@@ -9,13 +9,15 @@ import {OperationsHistoryModule} from './operations-history/operations-history.m
 import {ServicesDetailsComponent} from './services/services-details/services-details.component';
 import {ShowOffersModule} from './core/show-offers/show-offers.module';
 import {BankAccountsModule} from './bank-accounts/bank-accounts.module';
+import { FooterComponent } from './core/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LandingComponent,
     HeaderComponent,
-    ServicesDetailsComponent
+    ServicesDetailsComponent,
+    FooterComponent
   ],
   imports: [
     AppRoutingModule,

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #999;
+      }
+    </style>
+  </defs>
+  <g id="Android_icon" data-name="Android icon" transform="translate(-59 -813)">
+    <rect id="placeholder" class="cls-1" width="32" height="32" transform="translate(59 813)"/>
+    <g id="icon" transform="translate(63.978 818)">
+      <path id="Shape" class="cls-2" d="M11.766,0H.676A.676.676,0,0,0,0,.676v9.593a.676.676,0,0,0,.676.676h.857v2.58a2.029,2.029,0,1,0,4.057,0v-2.58H6.943v2.58a2.029,2.029,0,0,0,4.057,0v-2.58h.766a.676.676,0,0,0,.676-.676V.676A.676.676,0,0,0,11.766,0Z" transform="translate(4.756 7.529)"/>
+      <path id="Shape-2" data-name="Shape" class="cls-2" d="M2.029,0A2.031,2.031,0,0,0,0,2.029V6.041a2.029,2.029,0,1,0,4.057,0V2.029A2.031,2.031,0,0,0,2.029,0Z" transform="translate(17.92 7.529)"/>
+      <path id="Shape-3" data-name="Shape" class="cls-2" d="M2.029,0A2.031,2.031,0,0,0,0,2.029V6.041a2.029,2.029,0,1,0,4.057,0V2.029A2.031,2.031,0,0,0,2.029,0Z" transform="translate(0.023 7.529)"/>
+      <path id="Shape-4" data-name="Shape" class="cls-2" d="M12.29,1.154A.676.676,0,1,0,11.333.2L10.139,1.392a6.208,6.208,0,0,0-7.786-.04L1.2.2a.676.676,0,1,0-.956.956L1.392,2.3A6.192,6.192,0,0,0,0,6.221.676.676,0,0,0,.676,6.9h11.09a.676.676,0,0,0,.676-.676,6.191,6.191,0,0,0-1.352-3.868Z" transform="translate(4.756)"/>
+    </g>
+  </g>
+</svg>
