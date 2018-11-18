@@ -1,0 +1,29 @@
+
+
+
+.card {
+    padding: 60px;
+    box-sizing: border-box;
+
+    h2{
+        font-family: 'Roboto';
+        text-align: center;
+    }
+
+    .admin-item{
+        min-width: 512px;
+        margin: 24px;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        font-family: 'Roboto';
+    }
+
+    .secondary-text{
+        color: #999999
+    }
+}

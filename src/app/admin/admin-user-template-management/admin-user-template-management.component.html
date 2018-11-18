@@ -1,23 +1,19 @@
 <div class="content">
   <div class="card" style="height: 500px;">
-    Работа с портретом клиента
+    <h2>Работа с портретом клиента</h2>
     <form [formGroup]="form" (submit)="onSubmit()">
-      <div>
-        Выбрать пользователя
-        <mat-select formControlName="service">
+      <div class='admin-dropdown admin-item'>
+
+        <mat-select formControlName="service" placeholder="Выбрать пользователя">
           <mat-option value="{{user.id}}" *ngFor="let user of users">{{user.name}}</mat-option>
         </mat-select>
       </div>
-      <div>
-        Выбрать шаблон пользователя
-        <mat-select formControlName="userTemplate">
+      <div class='admin-dropdown admin-item'>
+        <mat-select formControlName="userTemplate" placeholder=" Выбрать шаблон пользователя">
           <mat-option value="{{template.id}}" *ngFor="let template of templates">{{template.name}}</mat-option>
         </mat-select>
       </div>
-      <div>
-        <input type="text" formControlName="text" />
-      </div>
-      <input type="submit" />
+      <input class="btn btn-primary" type="submit" value="Сохранить" />
     </form>
   </div>
 </div>
