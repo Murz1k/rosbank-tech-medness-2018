@@ -13,7 +13,8 @@
   </button>
 </div>
 <ul class="menu" [style.height.px]="height" style="margin-top: -10px;
-    overflow: hidden;">
+    overflow: hidden;
+    transition: height 0.5s ease 0s;">
   <li class="menu-item" *ngFor="let item of itemGroups">
     <div class="sub-menu-title">
       {{item.title}}
