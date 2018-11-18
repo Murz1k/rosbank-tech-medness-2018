@@ -4,7 +4,8 @@ import {LandingComponent} from './landing/landing.component';
 import {ServicesDetailsComponent} from './services/services-details/services-details.component';
 
 const appRoutes: Routes = [
-  {path: '', pathMatch: 'full', component: LandingComponent},
+  {path: '', component: LandingComponent},
+  {path: 'admin', loadChildren: './admin/admin.module#AdminModule'},
   {path: 'services/:id', pathMatch: 'full', component: ServicesDetailsComponent}
 ];
 

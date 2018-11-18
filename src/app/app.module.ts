@@ -9,7 +9,9 @@ import {OperationsHistoryModule} from './operations-history/operations-history.m
 import {ServicesDetailsComponent} from './services/services-details/services-details.component';
 import {ShowOffersModule} from './core/show-offers/show-offers.module';
 import {BankAccountsModule} from './bank-accounts/bank-accounts.module';
-import { FooterComponent } from './core/footer/footer.component';
+import {FooterComponent} from './core/footer/footer.component';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -21,8 +23,10 @@ import { FooterComponent } from './core/footer/footer.component';
   ],
   imports: [
     AppRoutingModule,
+    HttpClientModule,
     OperationsHistoryModule,
     BankAccountsModule,
+    BrowserAnimationsModule,
     BrowserModule,
     ShowOffersModule
   ],

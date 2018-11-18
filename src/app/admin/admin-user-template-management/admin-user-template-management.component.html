@@ -1,0 +1,23 @@
+<div class="content">
+  <div class="card" style="height: 500px;">
+    Админка
+    <form [formGroup]="form" (submit)="onSubmit()">
+      <div>
+        Выбрать шаблон пользователя
+        <mat-select formControlName="userTemplate">
+          <mat-option value="{{template.id}}" *ngFor="let template of templates">{{template.name}}</mat-option>
+        </mat-select>
+      </div>
+      <div>
+        Выбрать услугу
+        <mat-select formControlName="service">
+          <mat-option value="{{user.id}}" *ngFor="let user of users">{{user.name}}</mat-option>
+        </mat-select>
+      </div>
+      <div>
+        <input type="text" formControlName="text"/>
+      </div>
+      <input type="submit"/>
+    </form>
+  </div>
+</div>

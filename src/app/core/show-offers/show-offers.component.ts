@@ -1,4 +1,5 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
+import {ShowOffersService} from './show-offers.service';
 
 @Component({
   selector: 'app-show-offers',
@@ -7,31 +8,36 @@ import {Component, OnInit} from '@angular/core';
 })
 export class ShowOffersComponent implements OnInit {
 
+  @Input() userId: number;
+
   offers = [];
 
   currentOffer;
 
   index = 1;
 
-  constructor() {
+  constructor(private service: ShowOffersService) {
   }
 
   ngOnInit() {
-    this.offers = [
-      {
-        title: 'Экономьте каждый месяц', id: 0 // Депозит
-      },
-      {
-        title: 'Личный водитель бесплатно', id: 1 // Premium card
-      },
-      {
-        title: 'Персональный бухгалтер онлайн', id: 2 // Бухгалтерия
-      }
-    ];
+    // this.offers = [
+    //   {
+    //     title: 'Экономьте каждый месяц', id: 0 // Депозит
+    //   },
+    //   {
+    //     title: 'Личный водитель бесплатно', id: 1 // Premium card
+    //   },
+    //   {
+    //     title: 'Персональный бухгалтер онлайн', id: 2 // Бухгалтерия
+    //   }
+    // ];
 
-    this.currentOffer = this.offers[0];
+    this.service.getOffersByUserId(this.userId).subscribe((response) => {
+      this.currentOffer = this.offers[0];
+      this.offers = response.map(i => <any>{title: i.text, id: i.id});
 
-    setInterval(() => this.setCurrentOffer(), 10 * 1000);
+      setInterval(() => this.setCurrentOffer(), 10 * 1000);
+    });
   }
 
   setCurrentOffer() {

@@ -44,7 +44,7 @@
     </ul>
     <div style="display: flex;
     align-items: center;">
-      <app-show-offers></app-show-offers>
+      <app-show-offers *ngIf="currentUserId" [userId]="currentUserId"></app-show-offers>
       <button style="border: none;
     background-color: transparent;
     margin-left: 24px;

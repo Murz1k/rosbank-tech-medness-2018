@@ -1,0 +1,29 @@
+<div>
+  <div *ngIf="!_selectedItemValues">{{placeHolder}}</div>
+  <div *ngIf="_selectedItemValues">
+    <ng-container *ngIf="_selectedItemValues.length === 0">{{_selectedItemValues[0]}}</ng-container>
+    <ng-container *ngIf="_selectedItemValues.length > 0">{{_selectedItemValues.length}} типов</ng-container>
+  </div>
+  <button>
+    <img *ngIf="!showList" src="../../../assets/icons/chevron.svg"/>
+    <img *ngIf="showList" style="transform: rotate(180deg)" src="../../../assets/icons/chevron.svg"/>
+  </button>
+</div>
+<ul class="menu">
+  <li class="menu-item" *ngFor="let item of itemGroups">
+    <div class="sub-menu-title">
+      {{item.title}}
+    </div>
+    <ul class="sub-menu">
+      <li class="sub-menu-item" *ngFor="let subItems of item.items">
+        <label>
+          <input type="checkbox"/>
+          <div class="checkbox-container"></div>
+          <div class="title">
+            {{subItems.title}}
+          </div>
+        </label>
+      </li>
+    </ul>
+  </li>
+</ul>

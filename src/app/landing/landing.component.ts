@@ -1,4 +1,5 @@
 import {Component, OnInit} from '@angular/core';
+import {ActivatedRoute} from '@angular/router';
 
 @Component({
   selector: 'app-landing',
@@ -11,10 +12,15 @@ export class LandingComponent implements OnInit {
 
   menuItems = [];
 
-  constructor() {
+  currentUserId;
+
+  constructor(private route: ActivatedRoute) {
   }
 
   ngOnInit() {
+    this.route.queryParams.subscribe(params => {
+      this.currentUserId = params['id'];
+    });
     this.menuItems = [
       {title: 'Обзор', url: ''},
       {title: 'Счета', url: ''},
