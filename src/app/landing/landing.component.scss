@@ -10,25 +10,6 @@
   color: #999999;
 }
 
-.text {
-  font-family: Rubik;
-  font-size: 26px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.19;
-  letter-spacing: normal;
-  text-align: left;
-  color: #2d2f38;
-  span:first-of-type {
-    font-size: 16px;
-    font-weight: bold;
-  }
-  span:last-of-type {
-    font-weight: 500;
-  }
-}
-
 .addIndividualDataBlock {
   display: flex;
   flex-direction: column;
@@ -89,24 +70,6 @@ p {
   margin-left: 24px;
   display: flex;
   justify-content: space-between;
-  a {
-    font-family: Roboto;
-    font-size: 12px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.33;
-    letter-spacing: 0.7px;
-    text-align: center;
-    color: #e60028;
-    cursor: pointer;
-    opacity: 0.5;
-    text-transform: uppercase;
-    transition: .3s opacity;
-    &:hover {
-      opacity: 1;
-    }
-  }
   ul {
     list-style-type: none;
     display: flex;

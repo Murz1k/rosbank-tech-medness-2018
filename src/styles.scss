@@ -72,3 +72,22 @@ body {
     border: 1px solid #e61739;
   }
 }
+
+.text {
+  font-family: Rubik;
+  font-size: 26px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2d2f38;
+  span:first-of-type {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  span:last-of-type {
+    font-weight: 500;
+  }
+}

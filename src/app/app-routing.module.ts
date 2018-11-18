@@ -1,11 +1,11 @@
 import {RouterModule, Routes} from '@angular/router';
 import {NgModule} from '@angular/core';
 import {LandingComponent} from './landing/landing.component';
+import {ServicesDetailsComponent} from './services/services-details/services-details.component';
 
 const appRoutes: Routes = [
-  {
-    path: '', pathMatch: 'full', component: LandingComponent
-  }
+  {path: '', pathMatch: 'full', component: LandingComponent},
+  {path: 'services/:id', pathMatch: 'full', component: ServicesDetailsComponent}
 ];
 
 @NgModule({

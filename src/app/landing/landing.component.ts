@@ -7,6 +7,8 @@ import {Component, OnInit} from '@angular/core';
 })
 export class LandingComponent implements OnInit {
 
+  currentTab = 'history';
+
   menuItems = [];
 
   constructor() {
@@ -24,4 +26,7 @@ export class LandingComponent implements OnInit {
     ];
   }
 
+  switchTab(tabName: string) {
+    this.currentTab = tabName;
+  }
 }

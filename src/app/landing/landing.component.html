@@ -38,18 +38,21 @@
   </div>
   <div class="tabs">
     <ul>
-      <li class="active">Операции</li>
-      <li>Счета</li>
+      <li (click)="switchTab('history')" [class.active]="currentTab==='history'">Операции</li>
+      <li (click)="switchTab('accounts')" [class.active]="currentTab==='accounts'">Счета</li>
       <li>Бухгалтерия</li>
     </ul>
     <div style="display: flex;
     align-items: center;">
-      <a>Экономьте каждый месяц</a>
+      <app-show-offers></app-show-offers>
       <button style="border: none;
     background-color: transparent;
     margin-left: 24px;
     cursor: pointer;"><img src="../../assets/icons/ic_settings.svg"/></button>
     </div>
   </div>
-  <app-operations-history></app-operations-history>
+  <ng-container [ngSwitch]="currentTab">
+    <app-operations-history *ngSwitchCase="'history'"></app-operations-history>
+    <app-bank-accounts *ngSwitchCase="'accounts'"></app-bank-accounts>
+  </ng-container>
 </div>

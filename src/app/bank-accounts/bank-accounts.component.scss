@@ -1,0 +1,80 @@
+ul {
+  list-style-type: none;
+  .title {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    color: #999999;
+    margin-bottom: 18px;
+  }
+  .description {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    text-align: left;
+    color: #999999;
+  }
+  .details {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #e2751b;
+    margin-top: 6px;
+  }
+  .account_number {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #2d2f38;
+  }
+  .kebab-menu {
+    img {
+      height: 48px;
+    }
+  }
+}
+
+.card {
+  padding: 32px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.text {
+  font-size: 40px;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  text-align: left;
+  color: #999999;
+  img {
+    height: 60px;
+    margin-right: 16px;
+  }
+}

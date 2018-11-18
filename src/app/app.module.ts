@@ -6,17 +6,23 @@ import {LandingComponent} from './landing/landing.component';
 import {AppRoutingModule} from './app-routing.module';
 import {HeaderComponent} from './core/header/header.component';
 import {OperationsHistoryModule} from './operations-history/operations-history.module';
+import {ServicesDetailsComponent} from './services/services-details/services-details.component';
+import {ShowOffersModule} from './core/show-offers/show-offers.module';
+import {BankAccountsModule} from './bank-accounts/bank-accounts.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     LandingComponent,
-    HeaderComponent
+    HeaderComponent,
+    ServicesDetailsComponent
   ],
   imports: [
     AppRoutingModule,
     OperationsHistoryModule,
-    BrowserModule
+    BankAccountsModule,
+    BrowserModule,
+    ShowOffersModule
   ],
   providers: [],
   bootstrap: [AppComponent]

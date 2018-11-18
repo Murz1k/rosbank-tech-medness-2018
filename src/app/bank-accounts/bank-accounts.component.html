@@ -1,3 +1,31 @@
-<p>
-  bank-accounts works!
-</p>
+<ul>
+  <li *ngFor="let account of accounts">
+    <div class="title">{{account.title}}</div>
+    <div class="card">
+      <div class="main">
+        <div class="description">
+          Расчетный счет
+        </div>
+        <div class="text"
+             style="margin-top: 16px;">
+          {{account.value}}.<span>{{account.cops}}</span><span> {{account.currency}}</span>
+        </div>
+        <div class="details">
+          {{account.status}}
+        </div>
+      </div>
+      <div class="account_number">
+        {{account.account}}
+      </div>
+      <div class="cards">
+        <img src="../../assets/icons/mc_icon_small.svg"/>
+        <img src="../../assets/icons/mir_icon_small.svg"/>
+        <img src="../../assets/icons/visa_icon_small.svg"/>
+        еще 5
+      </div>
+      <div class="kebab-menu">
+        <img src="../../assets/icons/extra.svg"/>
+      </div>
+    </div>
+  </li>
+</ul>
