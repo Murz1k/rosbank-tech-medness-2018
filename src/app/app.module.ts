@@ -4,7 +4,8 @@ import {NgModule} from '@angular/core';
 import {AppComponent} from './app.component';
 import {LandingComponent} from './landing/landing.component';
 import {AppRoutingModule} from './app-routing.module';
-import { HeaderComponent } from './core/header/header.component';
+import {HeaderComponent} from './core/header/header.component';
+import {OperationsHistoryModule} from './operations-history/operations-history.module';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { HeaderComponent } from './core/header/header.component';
   ],
   imports: [
     AppRoutingModule,
+    OperationsHistoryModule,
     BrowserModule
   ],
   providers: [],
