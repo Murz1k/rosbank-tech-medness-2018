@@ -44,22 +44,20 @@ label {
   user-select: none;
 }
 
-.checkbox-container {
-  width: 24px;
+input[type=checkbox]:checked + img.checked {
   height: 24px;
-  border-radius: 4px;
-  background-color: #f6f8f9;
-  margin: 0;
-  &.active {
-    background-color: #e60028;
+  & + img.not-checked {
+    height: 0;
+    width: 0;
   }
 }
 
-input[type=checkbox]:checked + .checkbox-container {
-  background-color: #e60028;
+.sub-menu {
+  padding: 0 24px;
 }
 
 .sub-menu-title {
+  display: inline-flex;
   font-family: Roboto;
   font-size: 16px;
   font-weight: normal;
@@ -71,10 +69,17 @@ input[type=checkbox]:checked + .checkbox-container {
   color: #999999;
   margin-top: 20px;
   margin-bottom: 10px;
+  margin-left: 24px;
 }
 
 .sub-menu-item {
   padding: 8px 0;
+  img.checked {
+    height: 0;
+  }
+  img.not-checked {
+    height: 24px;
+  }
   .title {
     font-family: Roboto;
     font-size: 14px;

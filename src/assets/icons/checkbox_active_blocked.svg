@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #eef2f5;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #e0e0e0;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="checkbox_active_blocked" transform="translate(-59 -549)">
+    <g id="checkbox" class="cls-1" transform="translate(59 549)">
+      <rect class="cls-3" width="24" height="24" rx="4"/>
+      <rect class="cls-4" x="0.5" y="0.5" width="23" height="23" rx="3.5"/>
+    </g>
+    <path id="mark" class="cls-2" d="M0,3.251,2.933,6,8,0" transform="translate(67 558)"/>
+  </g>
+</svg>

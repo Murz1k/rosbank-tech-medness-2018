@@ -9,6 +9,8 @@ export class SelectOperationTypeComponent implements OnInit {
 
   @Input() placeHolder = 'Тип операции';
 
+  height = 0;
+
   _selectedItemValues;
 
   showList = false;
@@ -43,5 +45,13 @@ export class SelectOperationTypeComponent implements OnInit {
         ]
       }
     ];
+  }
+
+  showMenu() {
+    if (this.height < 730) {
+      this.height = 730;
+    } else {
+      this.height = 0;
+    }
   }
 }

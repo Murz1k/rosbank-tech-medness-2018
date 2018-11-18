@@ -1,4 +1,7 @@
-<div>
+<div (click)="showMenu()" style="    display: flex;
+    justify-content: space-between;
+    padding: 16px 24px;
+    min-height: 24px;">
   <div *ngIf="!_selectedItemValues">{{placeHolder}}</div>
   <div *ngIf="_selectedItemValues">
     <ng-container *ngIf="_selectedItemValues.length === 0">{{_selectedItemValues[0]}}</ng-container>
@@ -9,7 +12,8 @@
     <img *ngIf="showList" style="transform: rotate(180deg)" src="../../../assets/icons/chevron.svg"/>
   </button>
 </div>
-<ul class="menu">
+<ul class="menu" [style.height.px]="height" style="margin-top: -10px;
+    overflow: hidden;">
   <li class="menu-item" *ngFor="let item of itemGroups">
     <div class="sub-menu-title">
       {{item.title}}
@@ -18,7 +22,8 @@
       <li class="sub-menu-item" *ngFor="let subItems of item.items">
         <label>
           <input type="checkbox"/>
-          <div class="checkbox-container"></div>
+          <img class="checked" src="../../../assets/icons/checkbox_active.svg"/>
+          <img class="not-checked" src="../../../assets/icons/checkbox.svg"/>
           <div class="title">
             {{subItems.title}}
           </div>

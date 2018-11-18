@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e60028;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="checkbox_active" transform="translate(-59 -469)">
+    <rect id="checkbox" class="cls-1" width="24" height="24" rx="4" transform="translate(59 469)"/>
+    <path id="mark" class="cls-2" d="M0,3.251,2.933,6,8,0" transform="translate(67 478)"/>
+  </g>
+</svg>

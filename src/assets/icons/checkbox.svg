@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f6f8f9;
+        stroke: #e0e0e0;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        stroke: none;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="checkbox" transform="translate(-59 -389)">
+    <g id="checkbox-2" data-name="checkbox" class="cls-1" transform="translate(59 389)">
+      <rect class="cls-2" width="24" height="24" rx="4"/>
+      <rect class="cls-3" x="0.5" y="0.5" width="23" height="23" rx="3.5"/>
+    </g>
+  </g>
+</svg>
