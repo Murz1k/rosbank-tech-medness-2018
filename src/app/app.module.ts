@@ -4,11 +4,13 @@ import {NgModule} from '@angular/core';
 import {AppComponent} from './app.component';
 import {LandingComponent} from './landing/landing.component';
 import {AppRoutingModule} from './app-routing.module';
+import { HeaderComponent } from './core/header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LandingComponent
+    LandingComponent,
+    HeaderComponent
   ],
   imports: [
     AppRoutingModule,
